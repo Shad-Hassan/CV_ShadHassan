@@ -22,7 +22,16 @@ module.exports = {
     
   
       
-      extend: {},
+      extend: {
+        backgroundImage: {
+          'gradient-color': 'url(#GradientColor1)',
+          'gradient-color2': 'url(#GradientColor2)',
+          'gradient-color3': 'url(#GradientColor3)',
+          'gradient-color4': 'url(#GradientColor4)',
+          'gradient-color4': 'url(#GradientColor5)',
+        },
+      },
     },
+    variants: {},
     plugins: [],
-  }
+};
